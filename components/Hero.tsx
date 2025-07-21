@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -11,9 +12,12 @@ const Hero = () => {
           <p className="text-lg mb-6 text-gray-200">
             Machine Learning Engineer & UI Developer building cool web apps.
           </p>
-          <button className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-400 transition duration-300 w-max hover:cursor-pointer">
+          <Link
+            href="/contact"
+            className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-400 transition duration-300 w-max hover:cursor-pointer"
+          >
             Contact Me
-          </button>
+          </Link>
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
           <Image

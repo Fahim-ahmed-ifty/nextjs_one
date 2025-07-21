@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section id="about" className="w-full py-20 ">
+    <section className="w-full py-20 ">
       <div className="max-w-8xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         <div className="flex justify-center">
           <Image
@@ -14,7 +14,7 @@ const About = () => {
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold mb-4 text-indigo-600">About Me</h2>
+          <h2 className="text-3xl font-bold mb-4 text-blue-400">About Me</h2>
           <p className="text-lg text-white leading-relaxed">
             I’m Fahim Ahmed Ifty, a passionate Machine Learning Engineer and
             Frontend Developer with a deep love for blending intelligent systems

@@ -1,12 +1,17 @@
-import About from "@/components/About";
-import Hero from "@/components/Hero";
-import React from "react";
+const About = lazy(() => import("@/components/About"));
+const Hero = lazy(() => import("@/components/Hero"));
+const Skills = lazy(() => import("@/components/Skills"));
+import React, { lazy } from "react";
 
 const page = () => {
   return (
     <div>
       <Hero />
-      <About />
+      <div id="about">
+        <About />
+      </div>
+
+      <Skills />
     </div>
   );
 };
