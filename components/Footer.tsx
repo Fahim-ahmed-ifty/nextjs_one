@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Facebook, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
@@ -6,18 +7,18 @@ const Footer = () => {
     <div className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white mt-16">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col space-y-3 items-center md:items-start">
-          <a href="/" className="hover:text-black hover:font-bold">
+          <Link href="/" className="hover:text-black hover:font-bold">
             Home
-          </a>
+          </Link>
           <a href="#about" className="hover:text-black hover:font-bold">
             About
           </a>
           <a href="#" className="hover:text-black hover:font-bold">
             Projects
           </a>
-          <a href="/contact" className="hover:text-black hover:font-bold">
+          <Link href="/contact" className="hover:text-black hover:font-bold">
             Contact
-          </a>
+          </Link>
         </div>
 
         <div className="text-center md:text-left">
