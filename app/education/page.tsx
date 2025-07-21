@@ -16,7 +16,7 @@ const page = () => {
               <h3 className="text-2xl font-semibold text-white mb-2">
                 BSc in Computer Science & Engineering
               </h3>
-              <p className="text-gray-300">Stamford University Bangladesh</p>
+              <p className="text-gray-300">Stamford University Of Bangladesh</p>
               <p className="text-gray-400">2018 - 2022</p>
               <p className="mt-2 text-gray-300">
                 Obtained CGPA:{" "}
@@ -34,7 +34,7 @@ const page = () => {
               <p className="text-gray-300">Brac University</p>
               <p className="text-gray-400">2023 - 2025 (Ongoing)</p>
               <p className="mt-2 text-gray-300">
-                Currently pursuing my Master's degree.
+                Currently pursuing my Master&apos;s degree.
               </p>
             </div>
           </div>
