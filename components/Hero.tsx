@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:justify-between w-full">
         <div className="md:w-1/2 flex flex-col justify-center h-96">
           <h1 className="text-5xl font-extrabold mb-4">
-            Hello, I'm Fahim Ahmed Ifty
+            Hello, I&apos;m Fahim Ahmed Ifty
           </h1>
           <p className="text-lg mb-6 text-gray-200">
             Machine Learning Engineer & UI Developer building cool web apps.
